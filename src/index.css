@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+*{
+  margin: 0;
+}
+body {
+  font-family: "Gochi Hand", cursive;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.navbar{
+  background-color: rgb(165, 163, 163);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.logo-info{
+  display: flex;
+}
+.logo-name{
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+font-weight: 100;
+}
+.info{
+  display: flex;
+  float: right;
+  padding-right: 4rem;
+}
+.info-container{
+  display: flex;
+  align-items: center;
+}
+
+.info-container ul {
+  display: flex; 
+text-decoration: none;
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+}
+.info-container li {
+  text-decoration: none;
+  padding: 0 1rem; 
+  list-style-type: none;
+}
+.info-container li a {
+  text-decoration: none;
+  color: white; 
+}
+.btn{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  width: 7rem;
+  height:4rem;
+  border-style: none;
+  font-family: "Gochi Hand", cursive;
+  font-size: medium;
+}
+.about-link{
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 38rem;
+}
+.about-link ul{
+  list-style-type: none;
+}
+.about-link li{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 1rem; 
+  font-size: 1.2rem;
+}
+.input{
+  background-color: rgb(225, 224, 224);
+  border: none;
+  margin-top: 1rem;
+ margin-left: 35rem;
+ width: 22rem;
+ height: 2rem;
+margin-bottom: 2rem;
+}
+.input::placeholder{
+  color: black;
+  font-family: "Gochi Hand", cursive;
+  font-size: 1rem;
+
+}
+.about{
+  background:rgb(75, 75, 75) ;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.about-info{
+  padding-top: 2rem;
+  display: flex;
+}
+.buy{
+  background-color: rgb(236, 238, 238);
+  padding-top: 2rem;
+  padding-left: 18rem;
+  padding-right: 15rem;
+  padding-bottom: 2rem;
+}
+.buy p{
+  width:44rem;
+}
+.meme{
+ background:rgb(75, 75, 75) ;
+
+}
+.meme-img img{
+  width: 10rem;
+  padding-right: 3rem;
+}
+.meme-img{
+  padding-left: 20rem;
+  padding-bottom: 2rem;
+}
+.foot-name{
+  color:black;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+font-weight: 100;
+}
+.foot{
+  background: rgb(207, 205, 205);
+  padding-left: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left:30rem;
+}
+.footer p{
+  width:35rem;
+}
